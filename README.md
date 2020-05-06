@@ -2,7 +2,15 @@
 
 ## 1.  网络基础类
 
+ [1.1 IP地址](Liunx面试笔记\网络基础类\IP地址.md) 
+
+ [1.2  TCP三次握手](Liunx面试笔记\网络基础类\TCP三次握手.md) 
+
+ [1.3  ISOOSI七层模型](Liunx面试笔记\网络基础类\ISOOSI七层模型.md) 
+
 ## 2.  Linux系统管理类
+
+ [2.1  Centos 6 7 开机流程](Liunx面试笔记\Liunx系统管理类\Centos 6 7 开机流程.md) 
 
 ## 3.  Shell编程类
 
