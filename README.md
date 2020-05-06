@@ -2,7 +2,7 @@
 
 ## 1.  网络基础类
 
- [1.1 IP地址](Liunx面试笔记/网络基础类/IP地址.md) 
+ [1.1  IP地址](Liunx面试笔记/网络基础类/IP地址.md) 
 
  [1.2  TCP三次握手](Liunx面试笔记/网络基础类/TCP三次握手.md) 
 
@@ -12,13 +12,17 @@
 
  [2.1  Centos 6 7 开机流程]([https://github.com/PlutoaCharon/LiunxNotes/blob/master/Liunx%E9%9D%A2%E8%AF%95%E7%AC%94%E8%AE%B0/Liunx%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86%E7%B1%BB/Centos%206%207%20%E5%BC%80%E6%9C%BA%E6%B5%81%E7%A8%8B.md](https://github.com/PlutoaCharon/LiunxNotes/blob/master/Liunx面试笔记/Liunx系统管理类/Centos 6 7 开机流程.md)) 
 
+
+
+ [2.1  Centos 6 7 开机流程](Liunx面试笔记/Liunx系统管理类/Centos 6 7 开机流程.md) 
+
 ## 3.  Shell编程类
 
 ## 4.  Linux服务管理类
 
 ## 5.  数据库管理
 
-​            
+
 
 ------
 
