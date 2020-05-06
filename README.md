@@ -6,7 +6,7 @@
 
  [1.2  TCP三次握手](Liunx面试笔记/网络基础类/TCP三次握手.md) 
 
- [1.3  ISOOSI七层模型](Liunx面试笔记/网络基础类/ISOOSI七层模型.md) 
+ [1.3  ISO/OSI七层模型](Liunx面试笔记/网络基础类/ISOOSI七层模型.md) 
 
 ## 2.  Linux系统管理类
 
