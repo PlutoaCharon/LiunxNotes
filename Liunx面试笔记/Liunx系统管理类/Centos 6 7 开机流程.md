@@ -146,7 +146,7 @@ k)清理操作
 
 
 
-![Centos6 启动](E:\云笔记\Images\image-20200505184923931.png)
+![Centos6 启动](../../Images/image-20200505184923931.png)
 
 ## CentOS7启动流程
 CentOS7和CentOS6启动流程差不多，只不过到init程序时候，改为了systemd，因此详细解释一下systemd后的启动流程
@@ -201,7 +201,7 @@ CentOS6，7启动区别：
 Sysv init运行程序顺序：
 ![img](https://img-blog.csdn.net/20170716221856408?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMjc3NTQ5ODM=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-![Centos7 启动](E:\云笔记\Images\image-20200505185641197.png)
+![Centos7 启动](../../Images/image-20200505185641197.png)
 
 
 
