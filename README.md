@@ -10,7 +10,9 @@
 
 ## 2.  Linux系统管理类
 
- [2.1  Centos 6 7 开机流程](Liunx面试笔记/Liunx系统管理类/Centos 6 7 开机流程.md) 
+ [2.1  Centos 6 7 开机流程](Liunx面试笔记\Liunx系统管理类\Centos 6 7 开机流程.md) 
+
+
 
 ## 3.  Shell编程类
 
