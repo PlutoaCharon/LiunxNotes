@@ -10,11 +10,25 @@
 
 ## 2.  Linux系统管理类
 
- [2.1  Centos 6 7 开机流程](Liunx面试笔记/Liunx系统管理类/Centos6与7开机流程.md) 
+ [2.1 权限优化](Liunx面试笔记/Liunx系统管理类/权限优化.md) 
+
+ [2.2 备份策略](Liunx面试笔记/Liunx系统管理类/备份策略.md) 
+
+ [2.3 Raid](Liunx面试笔记/Liunx系统管理类/Raid.md)  
+
+ [2.4 资源查看](Liunx面试笔记/Liunx系统管理类/资源查看.md) 
+
+ [2.5 Centos 6 7 开机流程](Liunx面试笔记/Liunx系统管理类/Centos6与7开机流程.md) 
+
+ [2.6 系统优化](Liunx面试笔记/Liunx系统管理类/系统优化.md) 
 
 ## 3.  Shell编程类
 
+
+
 ## 4.  Linux服务管理类
+
+
 
 ## 5.  数据库管理
 
