@@ -99,9 +99,37 @@ http://www.sina.com.cn/4096.html
 https://www.4399.com/8192.html
 ```
 
+答案:
+
+```bash
+cat b.txt | cut -d "/" -f 3 | sort | uniq -c | sort –nr 
+```
+
+> cut -d 按照分隔符分割 -f 3 截取第三列
+>
+> uniq -c 显示该行重复次数
+>
+> sort -nr 按照数字从大到小排列
+
 2、统计当前服务器正在连接的IP地址，并按连接次数排序
 
-3、使用循环在/atguigu目录下创建10个txt文件，要求文件名称由6位随机小写字母加固定字符串（_gg）组成，例如：pzjebg_gg.txt。
+3、使用循环在/test目录下创建10个txt文件，要求文件名称由6位随机小写字母加固定字符串（_gg）组成，例如：pzjebg_gg.txt。
+
+```shell
+#!/bin/bash 
+if [ ! -d /atguigu ] #判断测试目录是否建立
+then 
+	mkdir /test
+fi 
+cd /test #进入测试目录
+for (( i=1;i<=10;i++ )) #循环10次，每次循环建立6位随机数文件
+do 
+	filename=$(tr -dc 'A-Za-z0-9' < /dev/urandom | head -c 6)
+	touch "$filename"_gg.txt 
+done
+```
+
+
 
 4、生成随机数字。
 
@@ -112,6 +140,36 @@ http://www.4399.com
 http://www.gulixueyuan.com 
 http://www.baidu.com
 ```
+
+```shell
+#!/bin/bash
+web=(
+http://www.4399.com
+http://www.gulixueyuan.com 
+http://www.baidu.com
+1.1.1.1
+) #定义数组
+
+for i in ${web[*]}#按照数组中值的个数循环，每次循环把数组中值赋予变量i
+do         
+	code=$( curl -o /dev/null -s --connect-timeout 5 -w ‘%{http_code}’  $i | grep -E “200|302” )#检测curl状态码
+    if [ “$code” != “” ]#变量$code值不为空，则证明网页可以访问        
+    then                 
+    	echo "$i is ok" >> /root/ok.log        
+    else  #变量$code值为空，则休眠10秒，重新检测                
+    	sleep 10                 
+    	code=$( curl -o /dev/null -s --connect-timeout 5 -w '%{http_code}' $i | grep -E "200|302" )
+    	if [ "$code" != "" ]                
+    	then                         
+    		echo "$i is ok" >> /root/ok.log                
+    	else                        
+    	echo "$i is error" >> /root/error.log                
+    	fi        
+    fi
+done
+```
+
+
 
 ## 四、Linux网络服务类面试题：
 
