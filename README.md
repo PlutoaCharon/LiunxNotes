@@ -11,10 +11,10 @@
 
 2. ​       HTTP 
 
-   - ​         http/https 1.0、1.1、2.0
-   - ​         get/post 以及幂等性
-   - ​         http 协议头相关
-   - ​         HTTP与HTTPS区别
+   - ​         [http/https 1.0、1.1、2.0 的区别](Liunx面试笔记/网络基础类/HTTP1，1.1，2的区别.md) 
+   - ​         [get/post 以及幂等性](Liunx面试笔记/网络基础类/GET与POST区别.md) 
+   - ​         [HTTP 协议头相关](Liunx面试笔记/网络基础类/HTTP与HTTPS.md) 
+   - ​         [HTTP与HTTPS区别](Liunx面试笔记/网络基础类/HTTP与HTTPS.md) 
    - ​         网络攻击（CSRF、XSS）
    - ​         [HTTP状态码](Liunx面试笔记/Linux服务管理类/HTTP状态码.md) 
 
