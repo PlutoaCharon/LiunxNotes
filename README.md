@@ -6,14 +6,15 @@
 
 1. ​       OSI7层模型（TCP4层）       
 
-   - ​         [ISOOSI与TCP/IP](Liunx面试笔记/网络基础类/ISOOSI七层模型.md) 
+   - ​         [ISOOSI7层模型与TCP/IP协议](Liunx面试笔记/网络基础类/ISOOSI七层模型.md) 
    - ​         [URL到页面的过程](Liunx面试笔记/网络基础类/url到页面的过程.md) 
 
 2. ​       HTTP 
 
-   - ​         http/https 1.0、1.1、2.0 
+   - ​         http/https 1.0、1.1、2.0
    - ​         get/post 以及幂等性
    - ​         http 协议头相关
+   - ​         HTTP与HTTPS区别
    - ​         网络攻击（CSRF、XSS）
    - ​         [HTTP状态码](Liunx面试笔记/Linux服务管理类/HTTP状态码.md) 
 
@@ -48,21 +49,19 @@
 
  [2.6 系统优化](Liunx面试笔记/Liunx系统管理类/系统优化.md) 
 
-## 3.  Shell编程类
+## 3.  Linux服务管理类
 
-## 4.  Linux服务管理类
+ [3.1 SSH服务](Liunx面试笔记/Linux服务管理类/SSH服务.md) 
 
- [4.1 SSH服务](Liunx面试笔记/Linux服务管理类/SSH服务.md) 
+ [3.2 DHCP+FTP](Liunx面试笔记/Linux服务管理类/DHCP+FTP.md) 
 
- [4.2 DHCP+FTP](Liunx面试笔记/Linux服务管理类/DHCP+FTP.md) 
+ [3.3 DNS服务](Liunx面试笔记/Linux服务管理类/DNS服务.md) 
 
- [4.3 DNS服务](Liunx面试笔记/Linux服务管理类/DNS服务.md) 
+ [3.4 Apache](Liunx面试笔记/Linux服务管理类/Apache.md) 
 
- [4.4 Apache](Liunx面试笔记/Linux服务管理类/Apache.md) 
+ [3.5 Nginx](Liunx面试笔记/Linux服务管理类/Nginx.md) 
 
- [4.5 Nginx](Liunx面试笔记/Linux服务管理类/Nginx.md) 
-
-## 5.  数据库管理
+## 4.  数据库管理
 
 1. ​       索引（包括分类及优化方式，失效条件，底层结构）
 2. ​       sql语法（join，union，子查询，having，group by）            
@@ -76,15 +75,15 @@
 10. ​       分库分表，主从复制，读写分离。            
 11. ​       Nosql相关（redis和mem***d区别之类的，如果你熟悉redis，redis还有一堆要问的）           
 
- [5.1 SQL语句](Liunx面试笔记/数据库/SQL语句.md) 
+ [4.1 SQL语句](Liunx面试笔记/数据库/SQL语句.md) 
 
- [5.2 Mysql主从复制](Liunx面试笔记/数据库/Mysql主从复制.md) 
+ [4.2 Mysql主从复制](Liunx面试笔记/数据库/Mysql主从复制.md) 
 
- [5.3 Mysql索引](Liunx面试笔记/数据库/Mysql索引.md) 
+ [4.3 Mysql索引](Liunx面试笔记/数据库/Mysql索引.md) 
 
- [5.4 Redis](Liunx面试笔记/数据库/Redis.md) 
+ [4.4 Redis](Liunx面试笔记/数据库/Redis.md) 
 
-## 6.  算法和数据结构     
+## 5.  算法和数据结构     
 
 1. ​       数组、**链表、二叉树**、队列、栈的各种操作（性能，场景）            
 2. ​       二分查找和各种变种的二分查找            
@@ -95,15 +94,19 @@
 7. ​       红黑树、AVL树、Hash树、Tire树、B树、B+树。            
 8. ​       图算法（比较少，也就两个最短路径算法理解吧）           
 
-
-
-## 7.  操作系统
+## 6.  操作系统
 
 1. ​       进程通信IPC（几种方式），与线程区别 
 2. ​       OS的几种策略（页面置换，进程调度等，每个里面有几种算法）            
 3. ​       互斥与死锁相关的            
 4. ​       linux常用命令（问的时候都会给具体某一个场景）            
 5. ​       Linux内核相关（select、poll、epoll）
+
+## 7.  编程语言
+
+1. ​       Python语言
+2. ​       Golang语言
+3. ​       Shell语言
 
 ------
 
