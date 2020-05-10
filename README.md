@@ -15,18 +15,16 @@
    - ​         [get/post 以及幂等性](Liunx面试笔记/网络基础类/GET与POST区别.md) 
    - ​         [HTTP 协议头相关](Liunx面试笔记/网络基础类/HTTP与HTTPS.md) 
    - ​         [HTTP与HTTPS区别](Liunx面试笔记/网络基础类/HTTP与HTTPS.md) 
-   - ​         网络攻击（CSRF、XSS）
+   - ​         [网络攻击（CSRF、XSS、SQL注入）](https://blog.csdn.net/beauty5188/article/details/79558809)
    - ​         [HTTP状态码](Liunx面试笔记/Linux服务管理类/HTTP状态码.md) 
 
 3. ​       TCP/IP       
 
    - ​         [三次握手、四次挥手](Liunx面试笔记/网络基础类/TCP三次握手.md)                 
-   - ​         拥塞控制（过程、阈值）      
-   - ​         流量控制与滑动窗口                
-   - ​         TCP与UDP比较                
-   - ​         子网划分（一般只有笔试有）                
-   - ​         DDos攻击               
-
+   - ​         [拥塞控制（过程、阈值）](https://network.51cto.com/art/202004/614800.htm)     
+   - ​         [流量控制与滑动窗口](https://network.51cto.com/art/202004/614800.htm)                
+   - ​         [TCP与UDP比较](https://juejin.im/post/5c6fbf54f265da2db718216a)              
+   - ​         [子网划分](Liunx面试笔记/网络基础类/IP地址.md)                             
    - ​         [IP地址](Liunx面试笔记/网络基础类/IP地址.md) 
 
 4. ​       (B)IO/NIO/AIO       
@@ -101,12 +99,31 @@
 3. ​       互斥与死锁相关的            
 4. ​       linux常用命令（问的时候都会给具体某一个场景）            
 5. ​       Linux内核相关（select、poll、epoll）
+6. ​       [进程与线程](Liunx面试笔记/操作系统/进程与线程.md) 
+7. ​       协程和线程的区别
 
 ## 7.  编程语言
 
 1. ​       Python语言
+   -  [Python垃圾回收与内存管理](Liunx面试笔记/编程语言/Python/Python垃圾回收与内存管理.md) 
+   - [深入理解Python中的元类(metaclass)](https://www.cnblogs.com/JetpropelledSnake/p/9094103.html)
+   - [@staticmethod和@classmethod的作用与区别](https://blog.csdn.net/handsomekang/article/details/9615239)
 2. ​       Golang语言
-3. ​       Shell语言
+   - 
+3. ​        Shell语言
+   - 
+
+
+
+## 8.  Docker
+
+- 
+
+## 9.  Kubernetes
+
+- 
+
+
 
 ------
 

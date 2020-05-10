@@ -8,8 +8,6 @@
 
  因此，GET提交的数据会在地址栏中显示出来，而POST提交，地址栏不会改变
 
- 
-
 2.传输数据的大小：
 
   首先声明,HTTP协议没有对传输的数据大小进行限制，HTTP协议规范也没有对URL长度进行限制。 而在实际开发中存在的限制主要有：
@@ -19,8 +17,6 @@
   因此对于GET提交时，传输数据就会受到URL长度的限制。
 
   POST:由于不是通过URL传值，理论上数据不受限。但实际各个WEB服务器会规定对post提交数据大小进行限制，Apache、IIS6都有各自的配置。
-
- 
 
 3.安全性：
 
@@ -36,4 +32,6 @@
 
 ## [Post 方法参数写在body中和写在url中有什么区别？](https://www.zhihu.com/question/64312188)
 
-## 
+## [幂等性](https://www.cnblogs.com/weidagang2046/archive/2011/06/04/idempotence.html)
+
+## [HTTP｜GET 和 POST 区别？网上多数答案都是错的！](https://www.jianshu.com/p/fd67b576365d)
