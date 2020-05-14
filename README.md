@@ -1,10 +1,8 @@
-
-
 # Liunx运维技能点
 
 ## 1.  网络基础类
 
-1. ​       OSI7层模型（TCP4层）       
+1. ​       OSI7层模型（TCP4层）
 
    - ​         [ISOOSI7层模型与TCP/IP协议](Liunx面试笔记/网络基础类/ISOOSI七层模型.md) 
    - ​         [URL到页面的过程](Liunx面试笔记/网络基础类/url到页面的过程.md) 
@@ -26,6 +24,8 @@
    - ​         [TCP与UDP比较](https://juejin.im/post/5c6fbf54f265da2db718216a)              
    - ​         [子网划分](Liunx面试笔记/网络基础类/IP地址.md)                             
    - ​         [IP地址](Liunx面试笔记/网络基础类/IP地址.md) 
+   - ​         [TCP头部检验](Liunx面试笔记/网络基础类/TCP头部检验.md) 
+   - ​         [ping 过程中发生了什么](Liunx面试笔记/网络基础类/ping 过程中发生了什么.md) 
 
 4. ​       (B)IO/NIO/AIO       
 
@@ -59,6 +59,8 @@
 
  [3.5 Nginx](Liunx面试笔记/Linux服务管理类/Nginx.md) 
 
+LVS
+
 ## 4.  数据库管理
 
 1. ​       索引（包括分类及优化方式，失效条件，底层结构）
@@ -87,8 +89,8 @@
 2. ​       二分查找和各种变种的二分查找            
 3. ​       各类排序算法以及复杂度分析（**快排、归并、堆**）            
 4. ​       各类算法题（手写）
-5. ​       理解并可以分析时间和空间复杂度。            
-6. ​       动态规划、贪心。            
+5. ​       理解并可以分析时间和空间复杂度
+6. ​       动态规划、贪心
 7. ​       红黑树、AVL树、Hash树、Tire树、B树、B+树。            
 8. ​       图算法（比较少，也就两个最短路径算法理解吧）           
 
@@ -101,8 +103,13 @@
 5. ​       Linux内核相关（select、poll、epoll）
 6. ​       [进程与线程](Liunx面试笔记/操作系统/进程与线程.md) 
 7. ​       协程和线程的区别
+8. ​       [僵尸进程孤儿进程](https://www.cnblogs.com/Anker/)
 
-## 7.  编程语言
+## 7.  自动化
+
+1. ​       [PXE](https://blog.51cto.com/13670314/2164086)
+
+## 8.  编程语言
 
 1. ​       Python语言
    -  [Python垃圾回收与内存管理](Liunx面试笔记/编程语言/Python/Python垃圾回收与内存管理.md) 
@@ -133,6 +140,8 @@
 ## Linux运维-经典面试题汇总
 
 [牛客网络基础常考面试题](https://www.nowcoder.com/ta/review-network)
+
+[Liunx常见面试题](https://www.linuxba.com/?s=面试)
 
 ### 一、网络基础类面试题：
 

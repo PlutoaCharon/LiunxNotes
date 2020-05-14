@@ -305,6 +305,8 @@ HTTP 页面响应速度比HTTPS 快，主要是因为HTTP 使用TCP 三次握手
 
 ![image-20200508183304969](../../Images/image-20200508183304969.png)
 
+https://www.jianshu.com/p/7158568e4867
+
 ## 一次完整的HTTP请求所经历的7个步骤
 
 > 一次完整的HTTP请求所经历的7个步骤
