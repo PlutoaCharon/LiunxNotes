@@ -25,7 +25,7 @@
    - ​         [子网划分](Liunx面试笔记/网络基础类/IP地址.md)                             
    - ​         [IP地址](Liunx面试笔记/网络基础类/IP地址.md) 
    - ​         [TCP头部检验](Liunx面试笔记/网络基础类/TCP头部检验.md) 
-   - ​         [ping 过程中发生了什么](Liunx面试笔记/网络基础类/ping 过程中发生了什么.md) 
+   - ​         [ping 过程中发生了什么](Liunx面试笔记/网络基础类/ping过程中发生了什么.md) 
 
 4. ​       (B)IO/NIO/AIO       
 
@@ -35,53 +35,48 @@
 
 ## 2.  Linux系统管理类
 
- [2.1 权限优化](Liunx面试笔记/Liunx系统管理类/权限优化.md) 
+- ​         [权限优化](Liunx面试笔记/Liunx系统管理类/权限优化.md) 
 
- [2.2 备份策略](Liunx面试笔记/Liunx系统管理类/备份策略.md) 
+- ​         [备份策略](Liunx面试笔记/Liunx系统管理类/备份策略.md) 
 
- [2.3 Raid](Liunx面试笔记/Liunx系统管理类/Raid.md)  
+- ​         [Raid](Liunx面试笔记/Liunx系统管理类/Raid.md)  
 
- [2.4 资源查看](Liunx面试笔记/Liunx系统管理类/资源查看.md) 
+- ​         [资源查看](Liunx面试笔记/Liunx系统管理类/资源查看.md) 
 
- [2.5 Centos 6 7 开机流程](Liunx面试笔记/Liunx系统管理类/Centos6与7开机流程.md) 
+- ​         [Centos 6 7 开机流程](Liunx面试笔记/Liunx系统管理类/Centos6与7开机流程.md) 
 
- [2.6 系统优化](Liunx面试笔记/Liunx系统管理类/系统优化.md) 
+- ​         [系统优化](Liunx面试笔记/Liunx系统管理类/系统优化.md) 
 
 ## 3.  Linux服务管理类
 
- [3.1 SSH服务](Liunx面试笔记/Linux服务管理类/SSH服务.md) 
+- ​          [SSH服务](Liunx面试笔记/Linux服务管理类/SSH服务.md) 
 
- [3.2 DHCP+FTP](Liunx面试笔记/Linux服务管理类/DHCP+FTP.md) 
+- ​          [DHCP+FTP](Liunx面试笔记/Linux服务管理类/DHCP+FTP.md) 
 
- [3.3 DNS服务](Liunx面试笔记/Linux服务管理类/DNS服务.md) 
+- ​          [DNS服务](Liunx面试笔记/Linux服务管理类/DNS服务.md) 
 
- [3.4 Apache](Liunx面试笔记/Linux服务管理类/Apache.md) 
+- ​          [Apache](Liunx面试笔记/Linux服务管理类/Apache.md) 
 
- [3.5 Nginx](Liunx面试笔记/Linux服务管理类/Nginx.md) 
+- ​          [Nginx](Liunx面试笔记/Linux服务管理类/Nginx.md) 
 
-LVS
+- ​          [LVS-Keepalived](Liunx面试笔记/Linux服务管理类/LVS-Keepalived.md) 
 
 ## 4.  数据库管理
 
-1. ​       索引（包括分类及优化方式，失效条件，底层结构）
-2. ​       sql语法（join，union，子查询，having，group by）            
-3. ​       引擎对比（InnoDB，MyISAM）
-4. ​       数据库的锁（行锁，表锁，页级锁，意向锁，读锁，写锁，悲观锁，乐观锁，以及加锁的select sql方式）            
-5. ​       隔离级别，依次解决的问题（脏读、不可重复读、幻读）            
-6. ​       事务的ACID            
-7. ​       B树、B+树            
-8. ​       优化（explain，慢查询，show profile）            
-9. ​       数据库的范式
-10. ​       分库分表，主从复制，读写分离。            
-11. ​       Nosql相关（redis和mem***d区别之类的，如果你熟悉redis，redis还有一堆要问的）           
+1. ​       索引（包括分类及优化方式，失效条件，底层结构）[Mysql索引](Liunx面试笔记/数据库/Mysql索引.md) 
+2. ​       sql语法（join，union，子查询，having，group by）
+3. ​       [SQL语句](Liunx面试笔记/数据库/SQL语句.md)    
+4. ​       引擎对比（InnoDB，MyISAM）
+5. ​       数据库的锁（行锁，表锁，页级锁，意向锁，读锁，写锁，悲观锁，乐观锁，以及加锁的select sql方式）            
+6. ​       隔离级别，依次解决的问题（脏读、不可重复读、幻读）            
+7. ​       事务的ACID            
+8. ​       B树、B+树            
+9. ​       优化（explain，慢查询，show profile）            
+10. ​       数据库的范式
+11. ​       分库分表，[Mysql主从复制, 读写分离](Liunx面试笔记/数据库/Mysql主从复制.md) 
+12. ​       Nosql相关（redis和mem***d区别之类的，如果你熟悉redis，redis还有一堆要问的） [Redis](Liunx面试笔记/数据库/Redis.md)            
 
- [4.1 SQL语句](Liunx面试笔记/数据库/SQL语句.md) 
 
- [4.2 Mysql主从复制](Liunx面试笔记/数据库/Mysql主从复制.md) 
-
- [4.3 Mysql索引](Liunx面试笔记/数据库/Mysql索引.md) 
-
- [4.4 Redis](Liunx面试笔记/数据库/Redis.md) 
 
 ## 5.  算法和数据结构     
 
@@ -103,7 +98,7 @@ LVS
 5. ​       Linux内核相关（select、poll、epoll）
 6. ​       [进程与线程](Liunx面试笔记/操作系统/进程与线程.md) 
 7. ​       协程和线程的区别
-8. ​       [僵尸进程孤儿进程](https://www.cnblogs.com/Anker/)
+8. ​       [僵尸进程孤儿进程](https://www.cnblogs.com/anker/p/3271773.html)
 
 ## 7.  自动化
 
