@@ -1,4 +1,4 @@
-# Liunx运维技能点
+# 校招-运维开发（Liunx，Python，Golang）面试学习笔记
 
 ## 1.  网络基础类
 
