@@ -73,7 +73,7 @@
 
 
 
-## 5.  算法和数据结构     
+## 5.  算法和数据结构 
 
 1. ​       数组、**链表、二叉树**、队列、栈的各种操作（性能，场景）            
 2. ​       二分查找和各种变种的二分查找            
@@ -109,7 +109,7 @@
 ## 8.  编程语言
 
 1. ​       Python语言
-   -  [Python垃圾回收与内存管理](Liunx面试笔记/编程语言/Python/Python垃圾回收与内存管理.md) 
+   -  [Python垃圾回收与内存管理](Liunx面试笔记/编程语言/Python/Python垃圾回收与内存管理.md)
    - [深入理解Python中的元类(metaclass)](https://www.cnblogs.com/JetpropelledSnake/p/9094103.html)
    - [@staticmethod和@classmethod的作用与区别](https://blog.csdn.net/handsomekang/article/details/9615239)
    - 
