@@ -25,13 +25,8 @@
    - ​         [子网划分](Liunx面试笔记/网络基础类/IP地址.md)                             
    - ​         [IP地址](Liunx面试笔记/网络基础类/IP地址.md) 
    - ​         [TCP头部检验](Liunx面试笔记/网络基础类/TCP头部检验.md) 
-   - ​         [ping 过程中发生了什么](Liunx面试笔记/网络基础类/ping过程中发生了什么.md) 
+   - ​         [ping 过程中发生了什么](Liunx面试笔记/网络基础类/ping过程中发生了什么.md)  
 
-4. ​       (B)IO/NIO/AIO       
-
-   - ​         三者原理，各个语言是怎么实现的                
-   - ​         Netty                
-   - ​         Linux内核select poll epoll               
 
 ## 2.  Linux系统管理类
 
@@ -99,10 +94,17 @@
 6. ​       [进程与线程](Liunx面试笔记/操作系统/进程与线程.md) 
 7. ​       协程和线程的区别
 8. ​       [僵尸进程孤儿进程](https://www.cnblogs.com/anker/p/3271773.html)
+9. ​       (B)IO/NIO/AIO       
+
+   - ​         三者原理，各个语言是怎么实现的                
+   - ​         Netty                
+   - ​         Linux内核select poll epoll              
+10. ​       [阻塞非阻塞与同步异步](https://www.zhihu.com/question/19732473/answer/241673170)
 
 ## 7.  自动化
 
 1. ​       [PXE](https://blog.51cto.com/13670314/2164086)
+2. ​       Ansible
 
 ## 8.  编程语言
 
